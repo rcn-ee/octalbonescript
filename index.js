@@ -34,19 +34,8 @@ if (os.type() === 'Linux' && os.arch() === 'arm') {
 
         if (!bone.is_cape_universal()) {
             debug('Loading Universal Cape interface...');
-            bone.load_dt_sync('cape-universaln');
+            bone.load_dt_sync('univ-bbgw');
         }
-
-        // if (!bone.is_audio_enable()) {
-        //     debug('Loading AUDIO Cape...');
-        //     bone.load_dt_sync("cape-univ-audio");
-        // }
-
-        if (!bone.is_hdmi_enable()) {
-            debug('Loading HDMI Cape...');
-            bone.load_dt_sync('cape-univ-hdmi');
-        }
-
     }
 
 } else {
