@@ -27,7 +27,7 @@
   "dependencies": {
     "debug": "2.2.x",
     "verror": "1.8.x",
-    "serialport": "2.0.x"
+    "serialport": "3.1.x"
   },
   "devDependencies": {
     "chai": "^2.0.0",
